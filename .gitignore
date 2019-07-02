@@ -1,0 +1,40 @@
+# OSX
+#
+.DS_Store
+
+# node.js
+#
+**/node_modules/
+npm-debug.log
+
+# F#
+.fake/
+packages/
+paket-files/
+build/
+obj
+bin
+out
+
+# git
+*.orig
+
+.vs
+
+docs/output
+docs/temp
+
+FleetMapping/Server/config/*
+!FleetMapping/Server/config/.keep
+!FleetMapping/Server/config/cert/*
+
+ETL/Server/config/*
+!ETL/Server/config/.keep
+
+yarn-error\.log
+.idea/
+
+dumps/
+Scripts/dumps/
+
+ETL/Server/Config/\.keep

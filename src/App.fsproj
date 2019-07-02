@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="lib/Fable.Browser.SVG.fs" />
+    <Compile Include="lib/D3.fs" />
+    <Compile Include="lib/Plotly.fs" />
+    <Compile Include="NelderMead.fs" />
+    <Compile Include="Graphing.fs" />
+    <Compile Include="HTML.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Fable.Core" Version="2.1.0-alpha-002" />
+    <PackageReference Include="Fable.Browser.Dom" Version="1.0.0-alpha-004" />
+  </ItemGroup>
+</Project>

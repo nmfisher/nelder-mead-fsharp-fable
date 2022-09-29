@@ -5,7 +5,7 @@
   },
   "dependencies": {
     "@babel/core": "^7.3.4",
-    "d3": "^5.9.2",
+    "d3": "^7.6.1",
     "fable-compiler": "^2.1.12",
     "fable-loader": "^2.1.5",
     "plotly": "^1.0.6",
